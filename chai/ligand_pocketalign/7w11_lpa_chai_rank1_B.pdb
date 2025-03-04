@@ -1,0 +1,25 @@
+HETATM    1 C1_1 LIG2B   1      -5.881  -4.235 -13.426  1.00 54.56      B    C  
+HETATM    2 O1_1 LIG2B   1      -6.583  -5.468 -13.599  1.00 59.41      B    O  
+HETATM    3 C2_1 LIG2B   1      -6.903  -3.095 -13.269  1.00 53.65      B    C  
+HETATM    4 O2_1 LIG2B   1      -5.050  -4.297 -12.320  1.00 52.94      B    O  
+HETATM    5 C3_1 LIG2B   1      -7.854  -3.389 -12.116  1.00 53.62      B    C  
+HETATM    6 O3_1 LIG2B   1      -6.200  -1.869 -12.987  1.00 51.49      B    O  
+HETATM    7 C4_1 LIG2B   1      -8.488  -4.753 -12.307  1.00 56.99      B    C  
+HETATM    8 O4_1 LIG2B   1      -8.836  -2.404 -12.076  1.00 48.56      B    O  
+HETATM    9 C5_1 LIG2B   1      -7.406  -5.840 -12.500  1.00 57.92      B    C  
+HETATM   10 O5_1 LIG2B   1      -9.261  -5.083 -11.150  1.00 50.01      B    O  
+HETATM   11 C6_1 LIG2B   1      -8.036  -7.190 -12.761  1.00 55.56      B    C  
+HETATM   12 O6_1 LIG2B   1      -8.843  -7.091 -13.906  1.00 59.48      B    O  
+CONECT    1    2    3    4
+CONECT    2    1    9
+CONECT    3    1    5    6
+CONECT    4    1
+CONECT    5    3    7    8
+CONECT    6    3
+CONECT    7    5    9   10
+CONECT    8    5
+CONECT    9    2    7   11
+CONECT   10    7
+CONECT   11    9   12
+CONECT   12   11
+END

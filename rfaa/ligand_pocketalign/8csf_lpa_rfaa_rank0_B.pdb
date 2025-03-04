@@ -1,0 +1,51 @@
+HETATM    1  C0  LG1 B 482      16.823   4.277  33.379  1.00  0.47           C  
+HETATM    2  N0  LG1 B 482      14.635   5.236  34.340  1.00  0.49           N  
+HETATM    3  O0  LG1 B 482      18.296   4.403  33.383  1.00  0.45           O  
+HETATM    4  C1  LG1 B 482      16.076   5.219  34.300  1.00  0.48           C  
+HETATM    5  O1  LG1 B 482      16.524   3.036  34.046  1.00  0.45           O  
+HETATM    6  C2  LG1 B 482      13.611   5.883  33.988  1.00  0.42           C  
+HETATM    7  O2  LG1 B 482      13.755   6.673  33.148  1.00  0.41           O  
+HETATM    8  C3  LG1 B 482      12.240   5.557  34.574  1.00  0.41           C  
+HETATM    9  O3  LG1 B 482      16.065   7.311  35.263  1.00  0.51           O  
+HETATM   10  C4  LG1 B 482      16.755   6.587  34.262  1.00  0.54           C  
+HETATM   11  O4  LG1 B 482      17.150   9.121  35.947  1.00  0.46           O  
+HETATM   12  C5  LG1 B 482      16.101   8.503  35.266  1.00  0.48           C  
+HETATM   13  O5  LG1 B 482      16.113  12.190  36.139  1.00  0.38           O  
+HETATM   14  C6  LG1 B 482      17.415  10.387  35.751  1.00  0.41           C  
+HETATM   15  O6  LG1 B 482      14.007  11.689  34.807  1.00  0.38           O  
+HETATM   16  C7  LG1 B 482      18.856  10.948  35.828  1.00  0.40           C  
+HETATM   17  O7  LG1 B 482      13.521   8.771  34.974  1.00  0.40           O  
+HETATM   18  C8  LG1 B 482      16.459  11.296  34.999  1.00  0.39           C  
+HETATM   19  O8  LG1 B 482      18.859   7.899  34.330  1.00  0.45           O  
+HETATM   20  C9  LG1 B 482      15.028  10.753  34.800  1.00  0.39           C  
+HETATM   21  O9  LG1 B 482      20.930   5.777  32.394  1.00  0.38           O  
+HETATM   22  C10 LG1 B 482      14.696   9.433  35.479  1.00  0.41           C  
+HETATM   23  C11 LG1 B 482      18.259   6.580  34.528  1.00  0.48           C  
+HETATM   24  C12 LG1 B 482      18.856   5.678  33.556  1.00  0.47           C  
+HETATM   25  C13 LG1 B 482      20.397   5.617  33.623  1.00  0.40           C  
+CONECT    1    3    4    5
+CONECT    2    4    6
+CONECT    3    1   24
+CONECT    4    1    2   10
+CONECT    5    1
+CONECT    6    2    7    8
+CONECT    7    6
+CONECT    8    6
+CONECT    9   10   12
+CONECT   10    4    9   23
+CONECT   11   12   14
+CONECT   12    9   11   22
+CONECT   13   18
+CONECT   14   11   16   18
+CONECT   15   20
+CONECT   16   14
+CONECT   17   22
+CONECT   18   14   13   20
+CONECT   19   23
+CONECT   20   18   15   22
+CONECT   21   25
+CONECT   22   12   20   17
+CONECT   23   10   19   24
+CONECT   24   23    3   25
+CONECT   25   24   21
+END

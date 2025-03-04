@@ -1,0 +1,43 @@
+HETATM    1 P1_1 LIG3C   1      14.976   8.262  25.822  1.00 93.83      C    P  
+HETATM    2 C1_1 LIG3C   1      12.161   5.033  23.896  1.00 95.71      C    C  
+HETATM    3 N1_1 LIG3C   1      13.953   3.522  24.210  1.00 95.17      C    N  
+HETATM    4 O1_1 LIG3C   1      13.737   1.432  23.426  1.00 94.19      C    O  
+HETATM    5 C2_1 LIG3C   1      13.408   4.770  24.347  1.00 95.55      C    C  
+HETATM    6 N2_1 LIG3C   1      12.017   2.824  23.129  1.00 95.77      C    N  
+HETATM    7 O2_1 LIG3C   1      15.569   4.110  25.754  1.00 92.94      C    O  
+HETATM    8 C3_1 LIG3C   1      13.256   2.536  23.586  1.00 95.24      C    C  
+HETATM    9 N3_1 LIG3C   1      10.233   4.235  22.838  1.00 95.94      C    N  
+HETATM   10 O3_1 LIG3C   1      15.526   6.855  25.293  1.00 92.18      C    O  
+HETATM   11 C4_1 LIG3C   1      11.472   4.002  23.286  1.00 95.98      C    C  
+HETATM   12 O4_1 LIG3C   1      13.658   8.438  25.149  1.00 71.72      C    O  
+HETATM   13 C5_1 LIG3C   1      15.280   3.219  24.705  1.00 94.15      C    C  
+HETATM   14 O5_1 LIG3C   1      15.971   9.252  25.405  1.00 72.17      C    O1-
+HETATM   15 C6_1 LIG3C   1      16.295   3.440  23.627  1.00 94.20      C    C  
+HETATM   16 O6_1 LIG3C   1      14.827   8.118  27.310  1.00 73.29      C    O  
+HETATM   17 C7_1 LIG3C   1      16.820   4.792  23.861  1.00 94.16      C    C  
+HETATM   18 O7_1 LIG3C   1      18.127   5.009  23.417  1.00 93.04      C    O  
+HETATM   19 C8_1 LIG3C   1      16.720   4.835  25.388  1.00 93.17      C    C  
+HETATM   20 O8_1 LIG3C   1      17.371   2.526  23.805  1.00 91.14      C    O  
+HETATM   21 C9_1 LIG3C   1      16.622   6.235  25.927  1.00 92.07      C    C  
+CONECT    1   10   12   14   16
+CONECT    2    5   11
+CONECT    3    5    8   13
+CONECT    4    8
+CONECT    5    2    3
+CONECT    6    8   11
+CONECT    7   13   19
+CONECT    8    3    4    6
+CONECT    9   11
+CONECT   10    1   21
+CONECT   11    2    6    9
+CONECT   12    1
+CONECT   13    3    7   15
+CONECT   14    1
+CONECT   15   13   17   20
+CONECT   16    1
+CONECT   17   15   18   19
+CONECT   18   17
+CONECT   19    7   17   21
+CONECT   20   15
+CONECT   21   10   19
+END

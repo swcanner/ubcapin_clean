@@ -1,0 +1,69 @@
+HETATM    1  O33 LIG B   1      32.573  21.557  37.639  1.00 61.30      B    O  
+HETATM    2  O34 LIG B   1      37.540  25.661  36.515  1.00 61.30      B    O  
+HETATM    3  O35 LIG B   1      34.355  24.315  36.890  1.00 61.30      B    O  
+HETATM    4  O36 LIG B   1      39.215  29.253  33.410  1.00 61.30      B    O  
+HETATM    5  O37 LIG B   1      29.085  23.899  42.079  1.00 61.30      B    O  
+HETATM    6  O38 LIG B   1      35.894  30.836  36.309  1.00 61.30      B    O  
+HETATM    7  O39 LIG B   1      31.845  28.162  39.561  1.00 61.30      B    O  
+HETATM    8  O40 LIG B   1      29.965  26.337  40.914  1.00 61.30      B    O  
+HETATM    9  O41 LIG B   1      37.755  31.407  34.279  1.00 61.30      B    O  
+HETATM   10  O42 LIG B   1      34.128  29.860  39.144  1.00 61.30      B    O  
+HETATM   11  O43 LIG B   1      29.109  22.303  39.747  1.00 61.30      B    O  
+HETATM   12  O44 LIG B   1      35.990  28.799  37.505  1.00 61.30      B    O  
+HETATM   13  O45 LIG B   1      32.298  25.469  39.704  1.00 61.30      B    O  
+HETATM   14  O46 LIG B   1      31.160  23.838  38.489  1.00 61.30      B    O  
+HETATM   15  O47 LIG B   1      38.645  27.996  35.201  1.00 61.30      B    O  
+HETATM   16  O48 LIG B   1      35.359  26.658  37.967  1.00 61.30      B    O  
+HETATM   17  C49 LIG B   1      31.541  21.495  38.528  1.00 61.30      B    C  
+HETATM   18  C50 LIG B   1      38.362  26.608  37.102  1.00 61.30      B    C  
+HETATM   19  C51 LIG B   1      34.701  24.363  38.248  1.00 61.30      B    C  
+HETATM   20  C52 LIG B   1      31.067  25.114  39.172  1.00 61.30      B    C  
+HETATM   21  C53 LIG B   1      38.798  29.343  34.639  1.00 61.30      B    C  
+HETATM   22  C54 LIG B   1      35.388  28.013  38.411  1.00 61.30      B    C  
+HETATM   23  C55 LIG B   1      30.190  23.987  41.173  1.00 61.30      B    C  
+HETATM   24  C56 LIG B   1      37.106  30.162  36.154  1.00 61.30      B    C  
+HETATM   25  C57 LIG B   1      33.146  27.684  39.461  1.00 61.30      B    C  
+HETATM   26  C58 LIG B   1      29.959  25.100  40.199  1.00 61.30      B    C  
+HETATM   27  C59 LIG B   1      37.512  30.111  34.778  1.00 61.30      B    C  
+HETATM   28  C60 LIG B   1      34.016  28.567  38.600  1.00 61.30      B    C  
+HETATM   29  C61 LIG B   1      30.340  22.633  40.419  1.00 61.30      B    C  
+HETATM   30  C62 LIG B   1      36.993  28.755  36.782  1.00 61.30      B    C  
+HETATM   31  C63 LIG B   1      33.136  26.277  38.879  1.00 61.30      B    C  
+HETATM   32  C64 LIG B   1      31.436  22.730  39.335  1.00 61.30      B    C  
+HETATM   33  C65 LIG B   1      38.210  28.025  36.589  1.00 61.30      B    C  
+HETATM   34  C66 LIG B   1      34.548  25.761  38.788  1.00 61.30      B    C  
+CONECT    1   17
+CONECT    2   18
+CONECT    3   19
+CONECT    4   21
+CONECT    5   23
+CONECT    6   24
+CONECT    7   25
+CONECT    8   26
+CONECT    9   27
+CONECT   10   28
+CONECT   11   29
+CONECT   12   22   30
+CONECT   13   20   31
+CONECT   14   20   32
+CONECT   15   21   33
+CONECT   16   22   34
+CONECT   17    1   32
+CONECT   18    2   33
+CONECT   19    3   34
+CONECT   20   13   14   26
+CONECT   21    4   15   27
+CONECT   22   12   16   28
+CONECT   23    5   26   29
+CONECT   24    6   27   30
+CONECT   25    7   28   31
+CONECT   26    8   20   23
+CONECT   27    9   21   24
+CONECT   28   10   22   25
+CONECT   29   11   23   32
+CONECT   30   12   24   33
+CONECT   31   13   25   34
+CONECT   32   14   17   29
+CONECT   33   15   18   30
+CONECT   34   16   19   31
+END

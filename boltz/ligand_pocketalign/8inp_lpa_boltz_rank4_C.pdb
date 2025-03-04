@@ -1,0 +1,51 @@
+HETATM    1  P35 LIG C   1      13.872  40.686  23.493  1.00 89.76      C    P  
+HETATM    2  P36 LIG C   1      12.448  42.222  21.459  1.00 89.76      C    P  
+HETATM    3  O12 LIG C   1      12.412  50.231  21.668  1.00 89.76      C    O  
+HETATM    4  O13 LIG C   1      16.480  48.699  20.576  1.00 89.76      C    O  
+HETATM    5  O14 LIG C   1      13.960  39.372  23.691  1.00 89.76      C    O  
+HETATM    6  O15 LIG C   1      11.533  41.911  20.374  1.00 89.76      C    O1-
+HETATM    7  O16 LIG C   1      13.610  41.743  24.430  1.00 89.76      C    O  
+HETATM    8  O17 LIG C   1      14.812  40.630  23.622  1.00 89.76      C    O  
+HETATM    9  O18 LIG C   1      11.867  42.977  22.525  1.00 89.76      C    O  
+HETATM   10  O19 LIG C   1      17.982  43.930  21.376  1.00 89.76      C    O  
+HETATM   11  O20 LIG C   1      17.311  46.213  22.630  1.00 89.76      C    O  
+HETATM   12  O21 LIG C   1      15.258  45.060  19.996  1.00 89.76      C    O  
+HETATM   13  O22 LIG C   1      13.664  43.104  20.866  1.00 89.76      C    O  
+HETATM   14  O23 LIG C   1      13.005  40.905  22.074  1.00 89.76      C    O  
+HETATM   15  C24 LIG C   1      12.704  47.917  21.575  1.00 89.76      C    C  
+HETATM   16  C25 LIG C   1      13.574  46.889  21.360  1.00 89.76      C    C  
+HETATM   17  C26 LIG C   1      13.146  49.263  21.459  1.00 89.76      C    C  
+HETATM   18  C27 LIG C   1      15.324  48.464  20.884  1.00 89.76      C    C  
+HETATM   19  N28 LIG C   1      14.886  47.176  21.006  1.00 89.76      C    N  
+HETATM   20  N29 LIG C   1      14.459  49.477  21.128  1.00 89.76      C    N  
+HETATM   21  C30 LIG C   1      14.885  42.692  20.552  1.00 89.76      C    C  
+HETATM   22  C31 LIG C   1      16.639  44.074  21.649  1.00 89.76      C    C  
+HETATM   23  C32 LIG C   1      16.299  45.476  22.067  1.00 89.76      C    C  
+HETATM   24  C33 LIG C   1      15.815  46.081  20.767  1.00 89.76      C    C  
+HETATM   25  C34 LIG C   1      15.852  43.829  20.370  1.00 89.76      C    C  
+CONECT    1    5    7    8   14
+CONECT    2    6    9   13   14
+CONECT    3   17
+CONECT    4   18
+CONECT    5    1    8
+CONECT    6    2
+CONECT    7    1    8
+CONECT    8    1    5    7
+CONECT    9    2
+CONECT   10   22
+CONECT   11   23
+CONECT   12   24   25
+CONECT   13    2   21
+CONECT   14    1    2
+CONECT   15   16   17
+CONECT   16   15   19
+CONECT   17    3   15   20
+CONECT   18    4   19   20
+CONECT   19   16   18   24
+CONECT   20   17   18
+CONECT   21   13   25
+CONECT   22   10   23   25
+CONECT   23   11   22   24
+CONECT   24   12   19   23
+CONECT   25   12   21   22
+END

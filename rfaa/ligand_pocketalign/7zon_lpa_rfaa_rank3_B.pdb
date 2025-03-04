@@ -1,0 +1,25 @@
+HETATM    1  C0  LG1 B 193      10.698  -2.965  24.200  1.00  0.42           C  
+HETATM    2  O0  LG1 B 193      11.543  -2.706  23.095  1.00  0.46           O  
+HETATM    3  C1  LG1 B 193      10.820  -1.881  25.297  1.00  0.45           C  
+HETATM    4  O1  LG1 B 193      11.006  -4.220  24.837  1.00  0.43           O  
+HETATM    5  C2  LG1 B 193      10.790  -0.416  24.691  1.00  0.42           C  
+HETATM    6  O2  LG1 B 193       9.804  -2.030  26.262  1.00  0.42           O  
+HETATM    7  C3  LG1 B 193      11.747  -0.373  23.497  1.00  0.41           C  
+HETATM    8  O3  LG1 B 193      11.209   0.387  25.655  1.00  0.37           O  
+HETATM    9  C4  LG1 B 193      11.361  -1.405  22.401  1.00  0.47           C  
+HETATM   10  O4  LG1 B 193      13.105  -0.465  23.839  1.00  0.39           O  
+HETATM   11  C5  LG1 B 193      12.268  -1.394  21.166  1.00  0.39           C  
+HETATM   12  O5  LG1 B 193      12.754  -2.549  20.732  1.00  0.37           O  
+CONECT    1    2    3    4
+CONECT    2    1    9
+CONECT    3    1    5    6
+CONECT    4    1
+CONECT    5    3    7    8
+CONECT    6    3
+CONECT    7    5    9   10
+CONECT    8    5
+CONECT    9    7    2   11
+CONECT   10    7
+CONECT   11    9   12
+CONECT   12   11
+END

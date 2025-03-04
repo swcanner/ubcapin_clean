@@ -1,0 +1,51 @@
+HETATM    1  P35 LIG C   1     -17.771  -6.419 -12.956  1.00 81.04      C    P  
+HETATM    2  P36 LIG C   1     -17.387  -3.591 -12.335  1.00 81.04      C    P  
+HETATM    3  O12 LIG C   1     -24.672   1.245 -12.010  1.00 81.04      C    O  
+HETATM    4  O13 LIG C   1     -23.835  -0.988  -8.194  1.00 81.04      C    O  
+HETATM    5  O14 LIG C   1     -17.568  -6.319 -14.443  1.00 81.04      C    O  
+HETATM    6  O15 LIG C   1     -16.255  -2.698 -12.092  1.00 81.04      C    O1-
+HETATM    7  O16 LIG C   1     -17.140  -7.616 -12.336  1.00 81.04      C    O1-
+HETATM    8  O17 LIG C   1     -19.212  -6.300 -12.580  1.00 81.04      C    O  
+HETATM    9  O18 LIG C   1     -18.243  -3.263 -13.508  1.00 81.04      C    O  
+HETATM   10  O19 LIG C   1     -21.275  -5.344  -8.138  1.00 81.04      C    O  
+HETATM   11  O20 LIG C   1     -23.667  -4.376  -9.007  1.00 81.04      C    O  
+HETATM   12  O21 LIG C   1     -20.686  -2.568  -9.550  1.00 81.04      C    O  
+HETATM   13  O22 LIG C   1     -18.295  -3.569 -11.004  1.00 81.04      C    O  
+HETATM   14  O23 LIG C   1     -16.941  -5.139 -12.373  1.00 81.04      C    O  
+HETATM   15  C24 LIG C   1     -23.156  -0.475 -12.096  1.00 81.04      C    C  
+HETATM   16  C25 LIG C   1     -22.506  -1.457 -11.403  1.00 81.04      C    C  
+HETATM   17  C26 LIG C   1     -24.071   0.345 -11.436  1.00 81.04      C    C  
+HETATM   18  C27 LIG C   1     -23.626  -0.827  -9.391  1.00 81.04      C    C  
+HETATM   19  N28 LIG C   1     -22.744  -1.615 -10.043  1.00 81.04      C    N  
+HETATM   20  N29 LIG C   1     -24.280   0.141 -10.091  1.00 81.04      C    N  
+HETATM   21  C30 LIG C   1     -19.577  -3.978 -11.023  1.00 81.04      C    C  
+HETATM   22  C31 LIG C   1     -21.303  -4.835  -9.446  1.00 81.04      C    C  
+HETATM   23  C32 LIG C   1     -22.524  -4.022  -9.677  1.00 81.04      C    C  
+HETATM   24  C33 LIG C   1     -22.028  -2.654  -9.294  1.00 81.04      C    C  
+HETATM   25  C34 LIG C   1     -20.168  -3.856  -9.659  1.00 81.04      C    C  
+CONECT    1    5    7    8   14
+CONECT    2    6    9   13   14
+CONECT    3   17
+CONECT    4   18
+CONECT    5    1
+CONECT    6    2
+CONECT    7    1
+CONECT    8    1
+CONECT    9    2
+CONECT   10   22
+CONECT   11   23
+CONECT   12   24   25
+CONECT   13    2   21
+CONECT   14    1    2
+CONECT   15   16   17
+CONECT   16   15   19
+CONECT   17    3   15   20
+CONECT   18    4   19   20
+CONECT   19   16   18   24
+CONECT   20   17   18
+CONECT   21   13   25
+CONECT   22   10   23   25
+CONECT   23   11   22   24
+CONECT   24   12   19   23
+CONECT   25   12   21   22
+END

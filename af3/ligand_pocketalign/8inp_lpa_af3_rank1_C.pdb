@@ -1,0 +1,51 @@
+HETATM    1  P1  LIG_C   1      13.981  40.851  23.369  1.00 97.87      C    P  
+HETATM    2  P2  LIG_C   1      11.331  40.545  22.186  1.00 96.57      C    P  
+HETATM    3  C1  LIG_C   1      12.443  47.918  21.826  1.00 96.66      C    C  
+HETATM    4  N1  LIG_C   1      14.595  47.022  21.220  1.00 97.12      C    N  
+HETATM    5  O1  LIG_C   1      16.193  48.491  20.497  1.00 96.30      C    O  
+HETATM    6  C2  LIG_C   1      13.295  46.832  21.679  1.00 96.79      C    C  
+HETATM    7  N2  LIG_C   1      14.183  49.352  21.070  1.00 96.43      C    N  
+HETATM    8  O2  LIG_C   1      12.213  50.226  21.621  1.00 96.51      C    O  
+HETATM    9  C3  LIG_C   1      15.035  48.291  20.919  1.00 96.87      C    C  
+HETATM   10  O3  LIG_C   1      14.807  44.802  20.466  1.00 97.45      C    O  
+HETATM   11  C4  LIG_C   1      12.921  49.204  21.512  1.00 96.86      C    C  
+HETATM   12  O4  LIG_C   1      14.497  41.557  22.038  1.00 97.44      C    O  
+HETATM   13  C5  LIG_C   1      15.498  45.890  21.057  1.00 97.43      C    C  
+HETATM   14  O5  LIG_C   1      14.445  39.435  23.350  1.00 94.04      C    O1-
+HETATM   15  C6  LIG_C   1      16.051  45.385  22.354  1.00 97.46      C    C  
+HETATM   16  O6  LIG_C   1      14.410  41.655  24.554  1.00 94.45      C    O  
+HETATM   17  C7  LIG_C   1      16.364  43.947  22.034  1.00 97.68      C    C  
+HETATM   18  O7  LIG_C   1      12.385  40.945  23.308  1.00 97.07      C    O  
+HETATM   19  C8  LIG_C   1      15.288  43.593  21.034  1.00 97.66      C    C  
+HETATM   20  O8  LIG_C   1      10.819  41.822  21.608  1.00 88.95      C    O  
+HETATM   21  C9  LIG_C   1      14.100  42.878  21.675  1.00 97.10      C    C  
+HETATM   22  O9  LIG_C   1      11.987  39.661  21.173  1.00 89.00      C    O1-
+HETATM   23  O10 LIG_C   1      10.253  39.804  22.910  1.00 89.40      C    O  
+HETATM   24  O11 LIG_C   1      17.643  43.851  21.428  1.00 97.32      C    O  
+HETATM   25  O12 LIG_C   1      17.160  46.144  22.776  1.00 97.19      C    O  
+CONECT    1   12   14   16   18
+CONECT    2   18   20   22   23
+CONECT    3    6   11
+CONECT    4    6    9   13
+CONECT    5    9
+CONECT    6    3    4
+CONECT    7    9   11
+CONECT    8   11
+CONECT    9    4    5    7
+CONECT   10   13   19
+CONECT   11    3    7    8
+CONECT   12    1   21
+CONECT   13    4   10   15
+CONECT   14    1
+CONECT   15   13   17   25
+CONECT   16    1
+CONECT   17   15   19   24
+CONECT   18    1    2
+CONECT   19   10   17   21
+CONECT   20    2
+CONECT   21   12   19
+CONECT   22    2
+CONECT   23    2
+CONECT   24   17
+CONECT   25   15
+END

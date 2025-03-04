@@ -1,0 +1,25 @@
+HETATM    1 C1_1 LIG3C   1      29.414  14.926  31.252  1.00 85.16      C    C  
+HETATM    2 O1_1 LIG3C   1      30.387  14.868  30.227  1.00 87.41      C    O  
+HETATM    3 C2_1 LIG3C   1      28.405  16.038  30.968  1.00 89.81      C    C  
+HETATM    4 O2_1 LIG3C   1      30.092  15.221  32.455  1.00 83.79      C    O  
+HETATM    5 C3_1 LIG3C   1      27.764  15.758  29.660  1.00 90.66      C    C  
+HETATM    6 O3_1 LIG3C   1      27.429  16.064  32.005  1.00 85.37      C    O  
+HETATM    7 C4_1 LIG3C   1      28.789  15.621  28.622  1.00 88.50      C    C  
+HETATM    8 O4_1 LIG3C   1      26.933  16.850  29.341  1.00 84.30      C    O  
+HETATM    9 C5_1 LIG3C   1      29.754  14.508  28.973  1.00 90.62      C    C  
+HETATM   10 O5_1 LIG3C   1      28.178  15.291  27.389  1.00 86.68      C    O  
+HETATM   11 C6_1 LIG3C   1      30.848  14.322  27.944  1.00 86.11      C    C  
+HETATM   12 O6_1 LIG3C   1      31.493  15.590  27.813  1.00 78.83      C    O  
+CONECT    1    2    3    4
+CONECT    2    1    9
+CONECT    3    1    5    6
+CONECT    4    1
+CONECT    5    3    7    8
+CONECT    6    3
+CONECT    7    5    9   10
+CONECT    8    5
+CONECT    9    2    7   11
+CONECT   10    7
+CONECT   11    9   12
+CONECT   12   11
+END

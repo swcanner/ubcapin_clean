@@ -1,0 +1,25 @@
+HETATM    1 C1_1 LIG4D   1      12.044  -5.656  22.663  1.00 89.05      D    C  
+HETATM    2 O1_1 LIG4D   1      11.496  -5.865  21.392  1.00 87.62      D    O  
+HETATM    3 C2_1 LIG4D   1      13.468  -5.228  22.553  1.00 88.44      D    C  
+HETATM    4 O2_1 LIG4D   1      11.965  -6.874  23.349  1.00 84.43      D    O  
+HETATM    5 C3_1 LIG4D   1      13.560  -3.976  21.750  1.00 90.87      D    C  
+HETATM    6 O3_1 LIG4D   1      13.953  -4.961  23.855  1.00 85.33      D    O  
+HETATM    7 C4_1 LIG4D   1      12.923  -4.201  20.411  1.00 89.92      D    C  
+HETATM    8 O4_1 LIG4D   1      14.916  -3.632  21.592  1.00 87.58      D    O  
+HETATM    9 C5_1 LIG4D   1      11.487  -4.660  20.604  1.00 90.24      D    C  
+HETATM   10 O5_1 LIG4D   1      12.950  -3.027  19.662  1.00 88.36      D    O  
+HETATM   11 C6_1 LIG4D   1      10.805  -4.945  19.308  1.00 86.19      D    C  
+HETATM   12 O6_1 LIG4D   1      11.526  -5.967  18.623  1.00 78.32      D    O  
+CONECT    1    2    3    4
+CONECT    2    1    9
+CONECT    3    1    5    6
+CONECT    4    1
+CONECT    5    3    7    8
+CONECT    6    3
+CONECT    7    5    9   10
+CONECT    8    5
+CONECT    9    2    7   11
+CONECT   10    7
+CONECT   11    9   12
+CONECT   12   11
+END
