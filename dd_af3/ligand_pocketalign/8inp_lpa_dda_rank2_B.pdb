@@ -1,0 +1,51 @@
+HETATM    1  C   UNK     0      12.500  48.406  21.831  0.00  0.00           C  
+HETATM    2  C   UNK     0      13.119  47.195  21.603  0.00  0.00           C  
+HETATM    3  N   UNK     0      14.396  47.187  21.245  0.00  0.00           N  
+HETATM    4  C   UNK     0      15.074  48.361  21.109  0.00  0.00           C  
+HETATM    5  O   UNK     0      16.290  48.335  20.768  0.00  0.00           O  
+HETATM    6  N   UNK     0      14.511  49.553  21.320  0.00  0.00           N  
+HETATM    7  C   UNK     0      13.216  49.590  21.684  0.00  0.00           C  
+HETATM    8  O   UNK     0      12.689  50.717  21.882  0.00  0.00           O  
+HETATM    9  C   UNK     0      15.107  45.981  20.992  0.00  0.00           C  
+HETATM   10  C   UNK     0      15.717  45.374  22.258  0.00  0.00           C  
+HETATM   11  C   UNK     0      16.124  44.024  21.705  0.00  0.00           C  
+HETATM   12  C   UNK     0      14.982  43.766  20.740  0.00  0.00           C  
+HETATM   13  O   UNK     0      14.308  44.935  20.557  0.00  0.00           O  
+HETATM   14  C   UNK     0      14.044  42.781  21.444  0.00  0.00           C  
+HETATM   15  O   UNK     0      14.811  41.862  22.163  0.00  0.00           O  
+HETATM   16  P   UNK     0      13.810  41.051  23.251  0.00  0.00           P  
+HETATM   17  O   UNK     0      13.776  39.572  22.903  0.00  0.00           O  
+HETATM   18  O   UNK     0      14.500  41.249  24.796  0.00  0.00           O1-
+HETATM   19  O   UNK     0      12.250  41.650  23.258  0.00  0.00           O  
+HETATM   20  P   UNK     0      11.396  40.948  21.980  0.00  0.00           P  
+HETATM   21  O   UNK     0      11.953  41.400  20.636  0.00  0.00           O  
+HETATM   22  O   UNK     0      11.450  39.263  22.132  0.00  0.00           O1-
+HETATM   23  O   UNK     0       9.745  41.387  22.071  0.00  0.00           O1-
+HETATM   24  O   UNK     0      17.299  44.191  20.970  0.00  0.00           O  
+HETATM   25  O   UNK     0      16.784  46.113  22.724  0.00  0.00           O  
+CONECT    1    2    7
+CONECT    2    1    3
+CONECT    3    2    4    9
+CONECT    4    3    5    6
+CONECT    5    4
+CONECT    6    4    7
+CONECT    7    6    1    8
+CONECT    8    7
+CONECT    9    3   10   13
+CONECT   10    9   11   25
+CONECT   11   10   12   24
+CONECT   12   11   13   14
+CONECT   13   12    9
+CONECT   14   12   15
+CONECT   15   14   16
+CONECT   16   15   17   18   19
+CONECT   17   16
+CONECT   18   16
+CONECT   19   16   20
+CONECT   20   19   21   22   23
+CONECT   21   20
+CONECT   22   20
+CONECT   23   20
+CONECT   24   11
+CONECT   25   10
+END
